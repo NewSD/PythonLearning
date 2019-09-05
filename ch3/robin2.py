@@ -1,2 +1,2 @@
 #!python2
-print 'Run', 'away more!'
+# print 'Run', 'away more!'
