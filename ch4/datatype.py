@@ -68,3 +68,20 @@ s1 = '{0}, eggs, and {1}'.format('spam','SPAM')
 print(s1)
 s2 = '{}, eggs, and {}'.format('spam','SPAM')
 print(s2)
+
+
+num = '{:,.2f}'.format(296999.2567)
+print(num)
+print('%.2f | %+05d' % (3.14159,-42))
+
+print(S+'NI!')
+print(S.__add__('NI!!'))
+help(S.replace)
+
+
+# Unicode
+print('sp\xc4m')
+print(b'a\x01c')
+print(u'sp\u00c4m')
+print('spam'.encode('utf8'))
+print('spam'.encode('utf16'))
