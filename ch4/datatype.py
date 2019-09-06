@@ -40,9 +40,31 @@ print(S)
 S = 'shrubbery'
 L = list(S)
 print(L)
-L[1]='c'
+L[1] = 'c'
 print(''.join(L))
 B = bytearray(b'spam')
 B.extend(b'eggs')
 print(B)
 print(B.decode())
+
+S = 'Spam'
+print(S.find('pa'))
+SS = S.replace('pa', 'xyz')
+print(S.replace('pa', 'xyz'))
+print(S)
+
+line = 'aaa,bbb,ccccc,dd'
+print(line.split(','))
+print(S.upper())
+print(S.isalpha())
+
+line = 'aaa,bbb,ccccc,dd\n'
+print(line.rstrip())
+print(line.rstrip().split(','))
+
+s = '%s, eggs, and %s' % ('spam','SPAM')
+print(s)
+s1 = '{0}, eggs, and {1}'.format('spam','SPAM')
+print(s1)
+s2 = '{}, eggs, and {}'.format('spam','SPAM')
+print(s2)
