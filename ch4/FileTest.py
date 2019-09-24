@@ -70,9 +70,19 @@ raw = open('unidata.txt', 'rb').read()
 print(raw)
 print(raw.decode('utf-8'))
 
-
 print(text.encode('latin-1'))
 print(text.encode('utf-16'))
-print(len(text.encode('latin-1')),len(text.encode('utf-16')))
+print(len(text.encode('latin-1')), len(text.encode('utf-16')))
 
 print(b'\xff\xfes\x00p\x00\xc4\x00m\x00'.decode('utf-16'))
+
+import codecs
+
+read = codecs.open('unidata.txt', encoding='utf-8').read()
+print(read)
+
+rb__read = open('unidata.txt', 'rb').read()
+print(rb__read)
+
+txt__read = open('unidata.txt').read()
+print(txt__read)
