@@ -130,3 +130,19 @@ print(pow(144, .5))
 print(math.sqrt(1234567890))
 print(1234567890 ** .5)
 print(pow(1234567890, .5))
+
+import random
+
+print(random.random())
+
+print(random.randint(1,10))
+
+print(random.choice(['a','b','v','sdf']))
+
+suits = ['hearts','clubs','diamonds','spades']
+random.shuffle(suits)
+print(suits)
+random.shuffle(suits)
+print(suits)
+
+
