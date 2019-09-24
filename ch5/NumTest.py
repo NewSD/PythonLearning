@@ -110,4 +110,23 @@ print(bin(num))
 
 print(0.1 + 0.1 + 0.1 - 0.3)
 from decimal import Decimal
-print(Decimal('0.1')+Decimal('0.1')+Decimal('0.1')-Decimal('0.3'))
+
+print(Decimal('0.1') + Decimal('0.1') + Decimal('0.1') - Decimal('0.3'))
+import math
+
+print(math.pi, math.e)
+print(math.sin(2 * math.pi / 180))
+print(math.sin(0))
+
+print(math.sqrt(144), math.sqrt(2))
+print(pow(2, 4), 2 ** 4, 2.0 ** 4.0)
+
+print(abs(-78.0213), sum((1, 2, 3, 4)))
+print(min(3, 1, 2, 4), max(3, 2, 1, 4))
+
+print((1 / 3.0))
+
+print(pow(144, .5))
+print(math.sqrt(1234567890))
+print(1234567890 ** .5)
+print(pow(1234567890, .5))
