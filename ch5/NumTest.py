@@ -195,3 +195,26 @@ print(float(x))
 print(float(z))
 print(float(x + z))
 print(17 / 6)
+print(x + 2)
+print(x + 2.0)
+print(x + (1. / 3))
+print(x + (4. / 3))
+print(x + Fraction(4, 3))
+
+print(4.0 / 3)
+print((4.0 / 3).as_integer_ratio())
+
+a = x + Fraction(*(4.0 / 3).as_integer_ratio())
+print(a)
+
+# 集合
+
+x = set('abcde')
+y = set('bdxyz')
+
+print(x)
+print(y)
+print(x - y)
+print(x & y)
+print(x | y)
+print(x ^ y)
