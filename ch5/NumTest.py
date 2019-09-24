@@ -186,3 +186,12 @@ print(Decimal(str(1 / 3)) + Decimal(str(6 / 12)))
 ratio = (2.5).as_integer_ratio()
 print(ratio)
 
+f = 2.5
+z = Fraction(*f.as_integer_ratio())
+print(z)
+x = Fraction(1, 3)
+print(x + z)
+print(float(x))
+print(float(z))
+print(float(x + z))
+print(17 / 6)
