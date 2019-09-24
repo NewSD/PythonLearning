@@ -48,3 +48,34 @@ print(1 < 2)
 print(2.0 >= 1)
 print(2.0 == 2.0)
 print(2.0 != 2.0)
+
+X = 2
+Y = 4
+Z = 6
+
+print(X < Y < Z)
+print(X < Y and Y < Z)
+print(X < Y > Z)
+print(1.1 + 2.2)
+print(1.1 + 2.2 == 3.3)
+print(int(1.1 + 2.2) == int(3.3))
+
+# from __future__ import division
+
+# print(10 / 4)
+# print(10 / 4.0)
+# print(10 // 4)
+# print(10 // 4.0)
+
+import math
+
+floor = math.floor(2.5)
+print(floor)
+a = math.floor(-2.5)
+print(a)
+b = math.trunc(2.5)
+print(b)
+c = math.trunc(-2.5)
+print(c)
+
+print(5 / 2, 5 / -2)
