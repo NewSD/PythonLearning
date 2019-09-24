@@ -64,3 +64,17 @@ print(list(range(-6, 7, 2)))
 
 print([[x ** 2, x ** 3] for x in range(4)])
 print([[x, x / 2, x * 2] for x in range(-6, 7, 2) if x > 0])
+G = (sum(row) for row in M)
+print(next(G))
+print(next(G))
+print(next(G))
+print(list(map(sum, M)))
+
+print({sum(row) for row in M})
+print({i: sum(M[i]) for i in range(3)})
+
+
+print([ord(x) for x in 'Spaam'])
+print({ord(x) for x in 'Spaam'})
+print({x:ord(x) for x in 'Spaam'})
+print((ord(x) for x in 'Spaam'))
