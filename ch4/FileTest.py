@@ -23,7 +23,27 @@ class Main():
 if __name__ == '__main__':
     pass
 
-f = open('data.txt','w')
+f = open('data.txt', 'w')
 f.write('Hello\n')
 f.write('hello\n')
 f.close()
+
+f = open('data.txt')
+text = f.read()
+print(text)
+print(text.split())
+
+for line in open('data.txt'): print(line)
+
+print(dir(f))
+print(help(f.seek))
+
+
+
+import struct
+packed = struct.pack('>i4sh',7,b'spam',8)
+print(packed)
+
+file = open('data.bin','wb')
+file.write(packed)
+file.close()
