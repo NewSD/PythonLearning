@@ -79,3 +79,35 @@ c = math.trunc(-2.5)
 print(c)
 
 print(5 / 2, 5 / -2)
+# 1606938044258990275541962092341162602522202993782792835301376
+# print(2 ** 200)
+
+print(2 - 3j)
+print(1j * 1j)
+print(2 + 1j * 3)
+print((2 + 1j) * 3)
+
+# 8进制
+print(0o1, 0o20, 0o377)
+# 16进制
+print(0x01, 0x10, 0xff)
+# 2进制
+print(0b1, 0b10000, 0b11111111)
+
+print(oct(64), hex(64), bin(64))
+
+print(64, 0o100, 0x40, 0b1000000)
+
+print(int('64'), int('100', 8), int('40', 16), int('1000000', 2))
+print(int('0x40', 16), int('0b1000000', 2))
+
+print(eval('64'), eval('0o100'), eval('0x40'), eval('0b1000000'))
+
+num = 0xfffffffffff5658ffffff
+print(num)
+print(oct(num))
+print(bin(num))
+
+print(0.1 + 0.1 + 0.1 - 0.3)
+from decimal import Decimal
+print(Decimal('0.1')+Decimal('0.1')+Decimal('0.1')-Decimal('0.3'))
