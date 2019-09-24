@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f55381e-5fdf-41ab-a819-630eda25e7cd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ch5/NumTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch5/NumTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6/TypeTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch6/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,20 +21,16 @@
     <SUITE FILE_PATH="coverage/PythonLearning$NumTest.coverage" NAME="NumTest Coverage Results" MODIFIED="1569321748281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch5" />
     <SUITE FILE_PATH="coverage/PythonLearning$DictTest.coverage" NAME="DictTest Coverage Results" MODIFIED="1569304187452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
     <SUITE FILE_PATH="coverage/PythonLearning$ListTest.coverage" NAME="ListTest Coverage Results" MODIFIED="1569300193336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
+    <SUITE FILE_PATH="coverage/PythonLearning$TypeTest.coverage" NAME="TypeTest Coverage Results" MODIFIED="1569328804510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch6" />
     <SUITE FILE_PATH="coverage/PythonLearning$TupleTest.coverage" NAME="TupleTest Coverage Results" MODIFIED="1569304384168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch5/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="NumTest.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch5/NumTest.py">
+      <file leaf-file-name="TypeTest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch6/TypeTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="216" column="12" selection-start-line="216" selection-start-column="12" selection-end-line="216" selection-end-column="12" />
+            <state relative-caret-position="218">
+              <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -62,6 +60,7 @@
         <option value="$PROJECT_DIR$/ch4/OtherTest.py" />
         <option value="$PROJECT_DIR$/ch4/ClassTest.py" />
         <option value="$PROJECT_DIR$/ch5/NumTest.py" />
+        <option value="$PROJECT_DIR$/ch6/TypeTest.py" />
       </list>
     </option>
   </component>
@@ -95,7 +94,7 @@
             <path>
               <item name="PythonLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="ch5" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -130,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.NumTest">
+  <component name="RunManager" selected="Python.TypeTest">
     <configuration name="ClassTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,7 +206,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="TupleTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="TypeTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,31 +214,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch4/TupleTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch6/TypeTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.TupleTest" />
       <item itemvalue="Python.FileTest" />
       <item itemvalue="Python.OtherTest" />
       <item itemvalue="Python.ClassTest" />
       <item itemvalue="Python.NumTest" />
+      <item itemvalue="Python.TypeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TypeTest" />
         <item itemvalue="Python.NumTest" />
         <item itemvalue="Python.ClassTest" />
         <item itemvalue="Python.OtherTest" />
         <item itemvalue="Python.FileTest" />
-        <item itemvalue="Python.TupleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -478,13 +477,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch5/NumTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch5/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch5/NumTest.py">
+    <entry file="file://$PROJECT_DIR$/ch6/TypeTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="216" column="12" selection-start-line="216" selection-start-column="12" selection-end-line="216" selection-end-column="12" />
+        <state relative-caret-position="218">
+          <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
         </state>
       </provider>
     </entry>
