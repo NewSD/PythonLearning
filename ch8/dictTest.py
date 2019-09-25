@@ -84,3 +84,11 @@ print(list(table2.items()))
 
 year_ = [title for (title, year) in table2.items() if year == '1975']
 print(year_)
+
+K = 'Holy Grail'
+print(table2[K])
+V = '1975'
+key = [key for (key, value) in table2.items() if value == V]
+print(key)
+key = [key for key in table2.keys() if table2[key] == V]
+print(key)
