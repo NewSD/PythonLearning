@@ -55,12 +55,32 @@ print(d.get('ham'))
 print(d.get('toast'))
 print(d.get('toast', 88))
 print(d)
-d2 = {'toast':4,'muffin':5}
+d2 = {'toast': 4, 'muffin': 5}
 d.update(d2)
 print(d)
 print(d.pop('muffin'))
 print(d.pop('toast'))
 print(d)
 
+table = {
+    '1975': 'Holy Grail',
+    '1979': 'Life of Brain',
+    '1983': 'The Meaning of Life'
+}
+year = '1983'
+movie = table[year]
+print(movie)
 
+for year in table:
+    print(year + '\t' + table[year])
 
+table2 = {
+    'Holy Grail': '1975',
+    'Life of Brain': '1979',
+    'The Meaning of Life': '1983'
+}
+print(table2['Holy Grail'])
+print(list(table2.items()))
+
+year_ = [title for (title, year) in table2.items() if year == '1975']
+print(year_)
