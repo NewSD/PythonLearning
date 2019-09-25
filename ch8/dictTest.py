@@ -164,3 +164,36 @@ print(di)
 
 fromkeys = dict.fromkeys(['a', 'b'], 0)
 print(fromkeys)
+
+iterator = zip(['a', 'b', 'c'], [1, 2, 3])
+print(iterator)
+d = dict(zip(['a', 'b', 'c'], [1, 2, 3]))
+print(d)
+
+d = {k: v for (k, v) in zip(['a', 'b', 'c'], [1, 2, 3])}
+print(d)
+
+d = {x: x ** 2 for x in [1, 2, 3, 4]}
+print(d)
+d2 = {x: x ** 2 for x in range(4)}
+print(d2)
+
+d = {c: c * 4 for c in 'SPAM'}
+print(d)
+
+d = {c.lower(): c + '!' for c in ['spam', 'eggs', 'ham']}
+print(d)
+
+d = dict.fromkeys(['a', 'b', 'c'], 0)
+print(d)
+
+d = {k: 0 for k in ['a', 'b', 'c']}
+print(d)
+
+d = dict.fromkeys('spam')
+print(d)
+d = dict.fromkeys('spam', 0)
+print(d)
+
+d = {k: None for k in 'spam'}
+print(d)
