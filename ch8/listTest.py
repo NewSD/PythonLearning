@@ -105,3 +105,16 @@ print(L)
 L = ['abcddsdfa', 'ABDss', 'aBeff']
 sorted([x.lower() for x in L], reverse=True)
 print(L)
+
+L = [1, 2]
+L.extend([3, 4, 5])
+print(L)
+
+l = L.pop()
+print(l)
+
+L.reverse()
+print(L)
+
+print(list(reversed(L)))
+print(L)
