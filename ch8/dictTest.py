@@ -92,3 +92,23 @@ key = [key for (key, value) in table2.items() if value == V]
 print(key)
 key = [key for key in table2.keys() if table2[key] == V]
 print(key)
+
+Matrix = {}
+Matrix[(2, 3, 4)] = 88
+Matrix[(7, 8, 9)] = 99
+X = 2
+Y = 3
+Z = 4
+z_ = Matrix[(X, Y, Z)]
+print(z_)
+print(Matrix)
+
+if (2, 3, 6) in Matrix:
+    print(Matrix[(2, 3, 6)])
+else:
+    print(0)
+
+try:
+    print(Matrix[(2, 3, 6)])
+except KeyError:
+    print(0)
