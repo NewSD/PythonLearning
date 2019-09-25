@@ -127,9 +127,9 @@ print(L)
 print(L.pop())
 print(L)
 
-L=['ham', 'spam', 'eggs']
+L = ['ham', 'spam', 'eggs']
 print(L.index('eggs'))
-L.insert(1,'toast')
+L.insert(1, 'toast')
 print(L)
 
 L.remove('eggs')
@@ -138,3 +138,15 @@ pop = L.pop(1)
 print(pop)
 count = L.count('spam')
 print(count)
+
+L = ['ham', 'spam', 'eggs', 'toast']
+del L[0]
+print(L)
+del L[1:]
+print(L)
+
+L = ['Already', 'got', 'one']
+L[1:] = []
+print(L)
+L[0] = []
+print(L)
