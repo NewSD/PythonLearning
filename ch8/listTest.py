@@ -61,6 +61,29 @@ print(L[1])
 print(L)
 L[0:2] = ['eat', 'more']
 print(L)
-del  L[1]
+del L[1]
 print(L)
 
+L = [1, 2, 3]
+L[1:2] = [4, 5]
+print(L)
+L[1:1] = [6, 7]
+print(L)
+L[1:2] = []
+print(L)
+
+L = [1]
+L[:0] = [2, 3, 4]
+print(L)
+L[len(L):] = [5, 6, 7]
+print(L)
+L.extend([8, 9, 10])
+print(L)
+L.sort()
+print(L)
+
+L = ['eat', 'more', 'SPAM!']
+L.append('please')
+print(L)
+L.sort()
+print(L)
