@@ -197,3 +197,15 @@ print(d)
 
 d = {k: None for k in 'spam'}
 print(d)
+
+d = dict(a=1, b=2, c=3)
+print(d)
+k = d.keys()
+print(k)
+# print(k[0])
+print(list(k)[0])
+v = d.values()
+print(v)
+print(list(v))
+print(d.items())
+print(list(d.items()))
