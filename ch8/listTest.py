@@ -126,3 +126,15 @@ print(L)
 
 print(L.pop())
 print(L)
+
+L=['ham', 'spam', 'eggs']
+print(L.index('eggs'))
+L.insert(1,'toast')
+print(L)
+
+L.remove('eggs')
+print(L)
+pop = L.pop(1)
+print(pop)
+count = L.count('spam')
+print(count)
