@@ -112,3 +112,39 @@ try:
     print(Matrix[(2, 3, 6)])
 except KeyError:
     print(0)
+
+print(Matrix.get((2, 3, 4), 0))
+print(Matrix.get((2, 3, 6), 0))
+
+rec = {}
+rec['name'] = 'Bob'
+rec['age'] = 40.5
+rec['job'] = 'developer/manager'
+print(rec['name'])
+
+rec = {
+    'name': 'Bob',
+    'jobs': ['developer', 'manager'],
+    'web': 'www.bobs.org/?Bob',
+    'home': {'state': 'Overworked', 'zip': 12345}
+}
+print(rec['name'])
+print(rec['jobs'])
+print(rec['jobs'][1])
+print(rec['home']['zip'])
+db = []
+other = {
+    'name': 'other',
+    'jobs': ['hr', 'manager'],
+    'web': 'www.hr.org',
+    'home': {'state': 'Overworked', 'zip': 55555}
+}
+db.append(rec)
+db.append(other)
+print(db[0]['jobs'])
+
+db = {}
+db['bob'] = rec
+db['sue'] = other
+db['bob']['jobs']
+
