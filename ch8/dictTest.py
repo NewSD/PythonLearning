@@ -36,4 +36,31 @@ print(list(d.keys()))
 print(list(d.values()))
 print(list(d.items()))
 
+for i in d.items():
+    print(i)
+
+d['ham'] = ['grill', 'bake', 'fry']
+print(d)
+
+del d['eggs']
+print(d)
+d['brunch'] = 'Bacon'
+print(d)
+
+print(list(d.values()))
+print(list(d.keys()))
+print(list(d.items()))
+
+print(d.get('ham'))
+print(d.get('toast'))
+print(d.get('toast', 88))
+print(d)
+d2 = {'toast':4,'muffin':5}
+d.update(d2)
+print(d)
+print(d.pop('muffin'))
+print(d.pop('toast'))
+print(d)
+
+
 
