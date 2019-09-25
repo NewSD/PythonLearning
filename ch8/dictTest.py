@@ -148,3 +148,19 @@ db['bob'] = rec
 db['sue'] = other
 db['bob']['jobs']
 
+age_ = {'name': 'Bob', 'age': 40}
+print(age_)
+
+d = {}
+d['name'] = 'sue'
+d['age'] = 50
+print(d)
+
+di = dict(name='Bob', age=56)
+print(di)
+
+di = dict([('name', 'Bob'), ('age', 55)])
+print(di)
+
+fromkeys = dict.fromkeys(['a', 'b'], 0)
+print(fromkeys)
