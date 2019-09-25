@@ -87,3 +87,21 @@ L.append('please')
 print(L)
 L.sort()
 print(L)
+
+L = ['abc', 'ABD', 'aBe']
+L.sort()
+print(L)
+L.sort(key=str.lower)
+print(L)
+
+L = ['abc', 'ABD', 'aBe']
+L.sort(key=str.lower, reverse=True)
+print(L)
+
+L = ['abcdd', 'ABDss', 'aBeff']
+sorted(L, key=str.lower, reverse=True)
+print(L)
+
+L = ['abcddsdfa', 'ABDss', 'aBeff']
+sorted([x.lower() for x in L], reverse=True)
+print(L)
