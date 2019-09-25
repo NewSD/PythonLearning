@@ -118,3 +118,11 @@ print(L)
 
 print(list(reversed(L)))
 print(L)
+
+L = []
+L.append(1)
+L.append(2)
+print(L)
+
+print(L.pop())
+print(L)
