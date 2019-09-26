@@ -39,4 +39,20 @@ a = 1; b = 2; print(a + b)
 #     print(reply.upper())
 
 
+# while True:
+#     reply = input("Enter text:")
+#     if reply == 'stop': break
+#     print(int(reply)**2)
+# print('Bye')
 
+
+
+while True:
+    reply = input("Enter text:")
+    if reply == 'stop':
+        break
+    elif not reply.isdigit():
+        print("Bad!"*8)
+    else:
+        print(int(reply) ** 2)
+print('Bye')
