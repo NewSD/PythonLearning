@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f55381e-5fdf-41ab-a819-630eda25e7cd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ch12/ifTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch13/forTest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PythonLearning$ifTest.coverage" NAME="ifTest Coverage Results" MODIFIED="1569480308223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch12" />
+    <SUITE FILE_PATH="coverage/PythonLearning$ifTest.coverage" NAME="ifTest Coverage Results" MODIFIED="1569480819297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch12" />
     <SUITE FILE_PATH="coverage/PythonLearning$datatype.coverage" NAME="datatype Coverage Results" MODIFIED="1567758192324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
     <SUITE FILE_PATH="coverage/PythonLearning$listTest.coverage" NAME="listTest Coverage Results" MODIFIED="1569407242385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch8" />
     <SUITE FILE_PATH="coverage/PythonLearning$fileTest.coverage" NAME="fileTest Coverage Results" MODIFIED="1569475745674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch9" />
@@ -30,6 +31,7 @@
     <SUITE FILE_PATH="coverage/PythonLearning$first_test.coverage" NAME="first-test Coverage Results" MODIFIED="1569470028419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch8" />
     <SUITE FILE_PATH="coverage/PythonLearning$ListTest.coverage" NAME="ListTest Coverage Results" MODIFIED="1569300193336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
     <SUITE FILE_PATH="coverage/PythonLearning$TypeTest.coverage" NAME="TypeTest Coverage Results" MODIFIED="1569328879611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch6" />
+    <SUITE FILE_PATH="coverage/PythonLearning$forTest.coverage" NAME="forTest Coverage Results" MODIFIED="1569482897144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch13" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -47,11 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ifTest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ifTest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch12/ifTest.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="64" column="17" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forTest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch13/forTest.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+              <caret line="54" column="14" lean-forward="true" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -92,6 +103,7 @@
         <option value="$PROJECT_DIR$/ch10/sentenceTest.py" />
         <option value="$PROJECT_DIR$/ch11/expressionTest.py" />
         <option value="$PROJECT_DIR$/ch12/ifTest.py" />
+        <option value="$PROJECT_DIR$/ch13/forTest.py" />
       </list>
     </option>
   </component>
@@ -124,7 +136,7 @@
             <path>
               <item name="PythonLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="ch12" type="462c0819:PsiDirectoryNode" />
+              <item name="ch13" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ifTest">
+  <component name="RunManager" selected="Python.forTest">
     <configuration name="expressionTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,6 +207,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch9/fileTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="forTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch13/forTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,39 +269,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="tupleTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch9" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch9/tupleTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.tupleTest" />
       <item itemvalue="Python.fileTest" />
       <item itemvalue="Python.sentenceTest" />
       <item itemvalue="Python.expressionTest" />
       <item itemvalue="Python.ifTest" />
+      <item itemvalue="Python.forTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.forTest" />
         <item itemvalue="Python.ifTest" />
         <item itemvalue="Python.expressionTest" />
         <item itemvalue="Python.sentenceTest" />
         <item itemvalue="Python.fileTest" />
-        <item itemvalue="Python.tupleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -333,9 +345,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch3/threenames.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch4/ListTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
@@ -583,8 +592,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch12/ifTest.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="64" column="17" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch13/forTest.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <caret line="54" column="14" lean-forward="true" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
         </state>
       </provider>
     </entry>
