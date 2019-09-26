@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f55381e-5fdf-41ab-a819-630eda25e7cd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ch10/sentenceTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch10/sentenceTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch11/expressionTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +19,8 @@
     <SUITE FILE_PATH="coverage/PythonLearning$fileTest.coverage" NAME="fileTest Coverage Results" MODIFIED="1569475745674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch9" />
     <SUITE FILE_PATH="coverage/PythonLearning$FileTest.coverage" NAME="FileTest Coverage Results" MODIFIED="1569305918580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
     <SUITE FILE_PATH="coverage/PythonLearning$OtherTest.coverage" NAME="OtherTest Coverage Results" MODIFIED="1569307364970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
-    <SUITE FILE_PATH="coverage/PythonLearning$sentenceTest.coverage" NAME="sentenceTest Coverage Results" MODIFIED="1569477002466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch10" />
+    <SUITE FILE_PATH="coverage/PythonLearning$sentenceTest.coverage" NAME="sentenceTest Coverage Results" MODIFIED="1569477175942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch10" />
+    <SUITE FILE_PATH="coverage/PythonLearning$expressionTest.coverage" NAME="expressionTest Coverage Results" MODIFIED="1569479005444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch11" />
     <SUITE FILE_PATH="coverage/PythonLearning$ClassTest.coverage" NAME="ClassTest Coverage Results" MODIFIED="1569308145595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
     <SUITE FILE_PATH="coverage/PythonLearning$tupleTest.coverage" NAME="tupleTest Coverage Results" MODIFIED="1569472747516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch9" />
     <SUITE FILE_PATH="coverage/PythonLearning$TupleTest.coverage" NAME="TupleTest Coverage Results" MODIFIED="1569304384168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
@@ -31,32 +34,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fileTest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch9/fileTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="136" column="28" lean-forward="true" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sentenceTest.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch10/sentenceTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datafile.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch9/datafile.txt">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch11/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="data.bin" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch9/data.bin">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="expressionTest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch11/expressionTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -93,6 +82,7 @@
         <option value="$PROJECT_DIR$/ch9/csvdata.txt" />
         <option value="$PROJECT_DIR$/ch9/fileTest.py" />
         <option value="$PROJECT_DIR$/ch10/sentenceTest.py" />
+        <option value="$PROJECT_DIR$/ch11/expressionTest.py" />
       </list>
     </option>
   </component>
@@ -125,7 +115,7 @@
             <path>
               <item name="PythonLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="ch10" type="462c0819:PsiDirectoryNode" />
+              <item name="ch11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,8 +152,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sentenceTest">
-    <configuration name="dictTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.expressionTest">
+    <configuration name="expressionTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,12 +161,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch8/dictTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch11/expressionTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,19 +249,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.dictTest" />
       <item itemvalue="Python.first-test" />
       <item itemvalue="Python.tupleTest" />
       <item itemvalue="Python.fileTest" />
       <item itemvalue="Python.sentenceTest" />
+      <item itemvalue="Python.expressionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.expressionTest" />
         <item itemvalue="Python.sentenceTest" />
         <item itemvalue="Python.fileTest" />
         <item itemvalue="Python.tupleTest" />
         <item itemvalue="Python.first-test" />
-        <item itemvalue="Python.dictTest" />
       </list>
     </recent_temporary>
   </component>
@@ -334,12 +324,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch3/script0.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch3/script1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch3/test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -576,8 +560,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch10/sentenceTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+        <state relative-caret-position="173">
+          <caret line="94" column="13" lean-forward="true" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch11/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch11/expressionTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
         </state>
       </provider>
     </entry>
