@@ -108,3 +108,10 @@ import csv
 
 rdr = csv.reader(open('csvdata.txt'))
 for row in rdr: print(row)
+
+F = open('data.bin','wb')
+import struct
+data = struct.pack('>i4sh',7,b'spam',8)
+print(data)
+F.write(data)
+F.close()
