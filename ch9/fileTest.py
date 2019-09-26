@@ -115,3 +115,8 @@ data = struct.pack('>i4sh',7,b'spam',8)
 print(data)
 F.write(data)
 F.close()
+
+F = open('data.bin','rb')
+data = F.read()
+values = struct.unpack('>i4sh',data)
+print(values)
