@@ -109,14 +109,26 @@ import csv
 rdr = csv.reader(open('csvdata.txt'))
 for row in rdr: print(row)
 
-F = open('data.bin','wb')
+F = open('data.bin', 'wb')
 import struct
-data = struct.pack('>i4sh',7,b'spam',8)
+
+data = struct.pack('>i4sh', 7, b'spam', 8)
 print(data)
 F.write(data)
 F.close()
 
-F = open('data.bin','rb')
+F = open('data.bin', 'rb')
 data = F.read()
-values = struct.unpack('>i4sh',data)
+values = struct.unpack('>i4sh', data)
 print(values)
+
+with open('datafile.txt') as myfile:
+    for line in myfile:
+        print(line)
+
+myfile = open('datafile.txt')
+try:
+    for line in myfile:
+        print(line)
+finally:
+    myfile.close()
