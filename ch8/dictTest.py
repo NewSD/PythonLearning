@@ -209,3 +209,21 @@ print(v)
 print(list(v))
 print(d.items())
 print(list(d.items()))
+
+for k in d.keys(): print(k)
+
+for key in d: print(key)
+
+# 排序{'a': 1, 'b': 2, 'c': 3}
+print(d)
+Ks = d.keys()
+print(Ks)
+Ks = list(Ks)
+Ks.sort()
+print(Ks)
+for k in Ks: print(k, d[k])
+
+print("-------"*6)
+D = {'b': 2, 'c': 3, 'a': 1}
+Ks = D.keys()
+for k in sorted(Ks): print(k, D[k])
