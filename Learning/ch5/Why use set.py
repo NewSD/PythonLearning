@@ -41,3 +41,11 @@ print(set('spam') - set(['h', 'a', 'm']))
 print(set(dir(bytes)) - set(dir(bytearray)))
 
 print(set(dir(bytearray)) - set(dir(bytes)))
+
+
+L1,L2= [1,2,3,4,5],[2,5,3,4,1]
+print(L1 == L2)
+print(set(L1) == set(L2))
+print(sorted(L1) == sorted(L2))
+print('spam' == 'asmp',set('spam') == set('asmp'),sorted('spam') == sorted('asmp'))
+
