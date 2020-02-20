@@ -22,3 +22,19 @@ class Main():
 
 if __name__ == '__main__':
     pass
+
+a = 3
+print(a)
+print(type(a))
+a = 'spam'
+print(type(a))
+a = 1.23
+print(type(a))
+
+b = a
+a = 'spam'
+print(type(b))
+print(type(a))
+b = b + 2
+print(b)
+
